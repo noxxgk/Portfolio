@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Zgadywanie Państw po Konturach</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<audio id="correctSound" src="sounds/correct.mp3" preload="auto"></audio>
+<audio id="wrongSound" src="sounds/wrong.mp3" preload="auto"></audio>
+<audio id="winSound" src="sounds/win.mp3" preload="auto"></audio>
+<audio id="loseSound" src="sounds/lose.mp3" preload="auto"></audio>
+<body>
+ <div id="menu">
+  <h1 class="animated-title"> Zgadywanie Państw</h1>
+
+  <div class="menu-section">
+    <h2 class="animated-subtitle">🌐 Wybierz kontynent:</h2>
+    <div class="tiles">
+      <button class="continent" data-continent="europe">🌍 Europa</button>
+      <button class="continent" data-continent="asia">🏯 Azja</button>
+      <button class="continent" data-continent="africa">🦁 Afryka</button>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <h2 class="animated-subtitle">🎯 Wybierz poziom trudności:</h2>
+    <div class="tiles">
+      <button class="difficulty easy" data-lives="4" data-goal="10">Łatwy</button>
+      <button class="difficulty medium" data-lives="3" data-goal="25">Normalny</button>
+      <button class="difficulty hard" data-lives="2" data-goal="47">Trudny</button>
+    </div>
+  </div>
+
+ 
+</div>
+
+  
+ <div id="game" style="display:none;">
+  <div id="status-bar">
+  <div id="lives-box">
+    <span class="label">❤️ Życia:</span>
+    <span id="lives" class="value">0</span>
+  </div>
+  <div id="score-box">
+    <span class="label">⭐ Punkty:</span>
+    <span id="score" class="value">0</span>
+  </div>
+  <div id="timer-box">
+    <span class="label">⏳ Czas:</span>
+    <span id="timer" class="value">15</span>
+  </div>
+</div>
+
+
+  <img id="country-image" src="" alt="Mapa państwa" width="300" />
+  <div id="options"></div>
+
+</div>
+  
+  <div id="end" style="display:none;">
+  <h2 id="end-message"></h2>
+  <button onclick="location.reload()">Zagraj ponownie</button>
+</div>
+  <script src="script.js"></script>
+  <footer id="footer-credit">
+  Zdjęcia pochodzą z: <a href="https://freevectormaps.com/" target="_blank">freevectormaps.com</a>
+</footer>
+</body>
+<div id="flash-overlay"></div>
+
+</html>
