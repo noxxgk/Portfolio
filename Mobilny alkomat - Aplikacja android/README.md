@@ -39,12 +39,12 @@ Aplikacja stworzona jest w Kotlinie wraz z wykorzystaniem chmury Firestore, pozw
 ## Uruchomienie aplikacji
 1. Pobierz Android Studio wraz z (Android SDK, Emulator, Android Virtual Device) ze strony: https://developer.android.com/studio
 2. Uruchom Android Studio.
-3. Pobierz plik ZIP, wypakuj go do nowego folderu.
-4. Otwórz projekt w aplikacji, W Android Studio kliknij Open -> Wskaż folder w którym rozpakowałeś ZIP ->Kliknij OK/OPEN.
-5. Poczekaj na pobranie zależności (Gradle), jeśli u góry pojawi się "Sync Now" kliknij go, jeśli pojawią się błędy o brakujących składnikach SDK kliknij "Install missing component", (ten krok może chwilkę potrwać).
-6. W razie błędów sprawdź konfigurację SDK, File -> Project Structure -> Default Config, target SDK = 35 , min SDK version = 24, jeśli tego brak Android Studio zaproponuje pobranie.
-7. W przypadku braku błędów otwórz emulator, Tools -> Device Manager -> Create device, należy w wybrać dowolny model telefonu np. Pixel 8 oraz wybieramy jego system API 35, pobieramy obraz systemu oraz włączamy emulator.
-8. Klikamy run czyli shift + F10 lub zielony trójkąt na górnym pasku.
+3. Pobierz plik ZIP, wypakuj go do nowego folderu. [Mobilny alkomat- Google Drive](https://drive.google.com/file/d/1eZwAfKZUaD05Hga3O4z7DUiLN5Hxch6V/view?usp=sharing)
+5. Otwórz projekt w aplikacji, W Android Studio kliknij Open -> Wskaż folder w którym rozpakowałeś ZIP ->Kliknij OK/OPEN.
+6. Poczekaj na pobranie zależności (Gradle), jeśli u góry pojawi się "Sync Now" kliknij go, jeśli pojawią się błędy o brakujących składnikach SDK kliknij "Install missing component", (ten krok może chwilkę potrwać).
+7. W razie błędów sprawdź konfigurację SDK, File -> Project Structure -> Default Config, target SDK = 35 , min SDK version = 24, jeśli tego brak Android Studio zaproponuje pobranie.
+8. W przypadku braku błędów otwórz emulator, Tools -> Device Manager -> Create device, należy w wybrać dowolny model telefonu np. Pixel 8 oraz wybieramy jego system API 35, pobieramy obraz systemu oraz włączamy emulator.
+9. Klikamy run czyli shift + F10 lub zielony trójkąt na górnym pasku.
  ## Plan rozwoju
 1. Dodanie więcej pól wraz z informacjami o osobie korzystającej w celu lepszej oceny nietrzeźwości
 2. Bardziej dokładne przedstawienie informacji jak zmieniał się poziom alkoholu we krwi
