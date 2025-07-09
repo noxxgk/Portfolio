@@ -14,7 +14,7 @@ Aplikacja stworzona jest w Kotlinie wraz z wykorzystaniem chmury Firestore, pozw
 <table>
   <tr>
     <td align="center">
-      <img src="screenshots/ekranstartowy.png" width="284"/><br/>
+      <img src="screenshots/ekranstartowy.png" width="250"/><br/>
       <sub>Ekran logowania/rejestracji</sub>
     </td>
     <td align="center">
