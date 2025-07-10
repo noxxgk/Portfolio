@@ -7,7 +7,6 @@ body {
   align-items: center;
   min-height: 100vh;
 
-  /* 🌫 Delikatna animowana mgiełka */
   background: linear-gradient(-45deg, #c2e9fb, #a1c4fd, #e0f7fa, #a1c4fd);
   background-size: 400% 400%;
   animation: gradientFlow 12s ease infinite;
@@ -86,7 +85,7 @@ button {
   padding: 15px 25px;
   font-size: 18px;
   border-radius: 15px;
-  background: linear-gradient(45deg, #36d1dc, #5b86e5); /* morsko-niebieski gradient */
+  background: linear-gradient(45deg, #36d1dc, #5b86e5);
   color: white;
   border: none;
   transition: transform 0.2s;
@@ -109,7 +108,7 @@ button {
   margin: 15px 0;
 }
 
-/* Kafelki trudności — zróżnicowane gradienty */
+
 .difficulty.easy {
   background: linear-gradient(45deg, #56ab2f, #a8e063);
 }
@@ -120,7 +119,7 @@ button {
   background: linear-gradient(45deg, #e52d27, #b31217);
 }
 
-/* Dolny podpis */
+
 #credit {
   color: #000;
   font-size: 0.9em;
@@ -131,13 +130,13 @@ button {
   text-decoration: underline;
 }
 
-/* Sekcje menu */
+
 .menu-section {
   margin-bottom: 20px;
 }
 
 
-/* Animacje */
+
 @keyframes pulseText {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.1); }
@@ -222,13 +221,13 @@ body.flash {
 }
 
 #lives-box .label {
-  color: #dc2626; /* czerwony */
+  color: #dc2626; 
 }
 #score-box .label {
-  color: #d97706; /* złoty */
+  color: #d97706; 
 }
 #timer-box .label {
-  color: #111827; /* czarny */
+  color: #111827; 
 }
 
 .value {
@@ -276,7 +275,7 @@ body.flash {
   padding: 15px 25px;
   font-size: 18px;
   border-radius: 15px;
-  background: linear-gradient(45deg, #ff6a00, #ee0979); /* pomarańczowo-różowy */
+  background: linear-gradient(45deg, #ff6a00, #ee0979); 
   color: white;
   border: none;
   transition: transform 0.2s;
