@@ -14,9 +14,9 @@ Zgadywanie państw polega na odgadnięciu Państw na podstawie ich konturowych m
 ## Opis gry
 Po wybraniu kontynentu wybieramy poziom gry.
 
-1. Poziom Łatwy- 4 życia, potrzebujemy odgadnąć 10 Państw .
-2. Poziom Średni - 3 życia, potrzebujemy odgadnąć 20 Państw .
-3. Poziom Trudny - 2 życia, potrzebujemy odgadnąć 30 Państw .
+1. Poziom Łatwy- 4 życia, potrzebujemy odgadnąć 10 Państw.
+2. Poziom Średni - 3 życia, potrzebujemy odgadnąć 20 Państw.
+3. Poziom Trudny - 2 życia, potrzebujemy odgadnąć 30 Państw.
  
 Dodatkowym utrudnieniem jest limit czasu na odpowiedź w postaci 15 sekund.
 
