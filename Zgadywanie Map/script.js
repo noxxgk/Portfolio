@@ -157,7 +157,7 @@ let goal = 0;
 let currentCountry = null;
 let timer = null;
 let timeLeft = 0;
-let selectedContinent = null; // domyślnie
+let selectedContinent = null; 
 
 document.querySelectorAll(".difficulty").forEach(button => {
   button.addEventListener("click", () => {
@@ -170,14 +170,14 @@ document.querySelectorAll(".difficulty").forEach(button => {
     goal = parseInt(button.dataset.goal);
     score = 0;
 
-    // LIVES
+ 
     const livesElem = document.getElementById("lives");
     livesElem.textContent = lives;
     livesElem.classList.remove("status-update-gain", "status-update-loss");
     livesElem.classList.add("status-update-gain");
     setTimeout(() => livesElem.classList.remove("status-update-gain"), 800);
 
-    // SCORE
+  
     const scoreElem = document.getElementById("score");
     scoreElem.textContent = score;
     scoreElem.classList.remove("status-update-loss", "status-update-gain");
@@ -194,7 +194,7 @@ document.querySelectorAll('.continent').forEach(button => {
   button.addEventListener("click", () => {
     selectedContinent = button.dataset.continent;
 
-    // Wizualne podświetlenie aktywnego kontynentu
+    
     document.querySelectorAll('.continent').forEach(btn => btn.classList.remove('selected'));
     button.classList.add('selected');
   });
@@ -298,7 +298,7 @@ function checkAnswer(selected) {
   if (selected === currentCountry.name) {
   score++;
 
-  // 🔊 Dźwięk poprawnej odpowiedzi
+  
   const correctSound = document.getElementById("correctSound");
   if (correctSound) correctSound.play();
 
@@ -342,7 +342,7 @@ function endGame(won) {
   document.getElementById("end").style.display = "block";
   const message = document.getElementById("end-message");
   message.textContent = won ? "🎉 Wygrałeś!" : "😢 Przegrałeś!";
-  message.style.animation = ""; // brak animacji — tylko statyczne wyświetlenie
+  message.style.animation = ""; 
 
   
   const winSound = document.getElementById('winSound');
@@ -364,4 +364,3 @@ function flashScreen() {
   overlay.classList.add("active");
   setTimeout(() => overlay.classList.remove("active"), 300);
 }
-
