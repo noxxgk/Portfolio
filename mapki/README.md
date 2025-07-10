@@ -1,5 +1,5 @@
 # Zgadywanie Państw - Sprawdź swoją geograficzną wiedzę
-Po kliknięciu w link można zagrać w grę: [Zgadywanie Państw](https://noxxgk.github.io/ZgadywaniePanstw/)
+Po kliknięciu w link można zagrać w grę: [Zgadywanie Państw](https://noxxgk.github.io/mapki/)
 
 Zgadywanie Państw jest stworzone dzięki wykorzystaniu CSS, HTML oraz JavaScript. Projekt stworzony w celu naukowym oraz w celu rozwijaniu pasji jaką jest geografia.
 
