@@ -14,19 +14,23 @@ Aplikacja stworzona jest w Kotlinie wraz z wykorzystaniem chmury Firestore, pozw
 <table>
   <tr>
     <td align="center">
-      <img src="screenshots/ekranstartowy.png" width="284"/><br/>
+      <img src="2.png" width="284"/><br/>
       <sub>Ekran logowania/rejestracji</sub>
     </td>
     <td align="center">
-      <img src="screenshots/1czesc.png" width="320"/><br/>
+      <img src="3.png" width="320"/><br/>
       <sub>ekran główny</sub>
     </td>
     <td align="center">
-      <img src="screenshots/2czesc.png" width="320"/><br/>
+      <img src="4.png" width="320"/><br/>
       <sub>ekran główny z trzema opcjami</sub>
     </td>
     <td align="center">
-      <img src="screenshots/mapy.png" width="320"/><br/>
+      <img src="5.png" width="320"/><br/>
+      <sub>wygląd map google</sub>
+    </td>
+    <td align="center">
+      <img src="1.png" width="320"/><br/>
       <sub>wygląd map google</sub>
     </td>
 </table>
