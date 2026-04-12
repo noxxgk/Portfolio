@@ -44,7 +44,7 @@ Aplikacja stworzona jest w Kotlinie wraz z wykorzystaniem chmury Firestore, pozw
 ## Uruchomienie aplikacji
 1. Pobierz Android Studio wraz z (Android SDK, Emulator, Android Virtual Device) ze strony: https://developer.android.com/studio
 2. Uruchom Android Studio.
-3. Pobierz plik ZIP, wypakuj go do nowego folderu. Plik zip znajduje sie w assets(po prawej stronie od readme, pierwszy plik)
+3. Pobierz plik ZIP, wypakuj go do nowego folderu. Plik zip znajduje sie w https://github.com/noxxgk/Portfolio releases(po prawej stronie od readme, pierwszy plik)
 4. Otwórz projekt w aplikacji, W Android Studio kliknij Open -> Wskaż folder w którym rozpakowałeś ZIP ->Kliknij OK/OPEN.
 5. Poczekaj na pobranie zależności (Gradle), jeśli u góry pojawi się "Sync Now" kliknij go, jeśli pojawią się błędy o brakujących składnikach SDK kliknij "Install missing component", (ten krok może chwilkę potrwać).
 6. W razie błędów sprawdź konfigurację SDK, File -> Project Structure -> Default Config, target SDK = 35 , min SDK version = 24, jeśli tego brak Android Studio zaproponuje pobranie.
