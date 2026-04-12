@@ -7,8 +7,9 @@ Aplikacja stworzona jest w Kotlinie wraz z wykorzystaniem chmury Firestore, pozw
 2. Możliwość sprawdzenia czasu jakiego potrzebujemy aby całkowicie wytrzeźwieć.
 3. Logowanie i rejestracja pozwala korzystać wielu osobom na raz.
 4. Dane wpisywane w aplikacji są przechowywane w chmurze co pozwala na weryfikację osoby i momentu sprawdzenia trzeźwości.
-5. Aplikacja w celu upewnienia się czy jest się trzeźwym, ma opcje pokazania w mapach Google komisariaty policji.
-6. Aplikacja wysyła powiadomienie w celu przypomnienia czy faktycznie jesteśmy trzeźwi.
+5. Mapa pokazuje wykres zmieniania się poziomu alkoholu w czasie.
+6. Aplikacja w celu upewnienia się czy jest się trzeźwym, ma opcje pokazania w mapach Google komisariaty policji.
+7. Aplikacja wysyła powiadomienie w celu przypomnienia czy faktycznie jesteśmy trzeźwi.
 
 ## Wygląd działania aplikacji
 <table>
